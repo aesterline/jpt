@@ -1,6 +1,14 @@
 = jpt
 
-Description goes here.
+Simple tools that can be useful to a Java developer.
+
+== Usage
+
+The following code can be used to find the dependencies of a Java class.   This will only find the first level dependencies.
+
+  require 'jpt'
+  dependencies = JPT.dependencies(java.lang.Math.java_class)
+
 
 == Contributing to jpt
  
